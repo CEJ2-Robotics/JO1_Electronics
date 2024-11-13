@@ -2168,23 +2168,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 1.27 22.86 0)
+			(property "Reference" "J4"
+				(at 1.27 26.67 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_02x17_Row_Letter_First"
-				(at 1.27 -22.86 0)
+			(property "Value" "CN10"
+				(at 1.27 24.13 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2616,286 +2616,16 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 20.32 0)
-					(length 3.81)
-					(name "Pin_a1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "a1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_a10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "a10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_a11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "a11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_a12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "a12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 0)
-					(length 3.81)
-					(name "Pin_a13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "a13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -12.7 0)
-					(length 3.81)
-					(name "Pin_a14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "a14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -15.24 0)
-					(length 3.81)
-					(name "Pin_a15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "a15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -17.78 0)
-					(length 3.81)
-					(name "Pin_a16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "a16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -20.32 0)
-					(length 3.81)
-					(name "Pin_a17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "a17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 17.78 0)
 					(length 3.81)
-					(name "Pin_a2"
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "a2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 15.24 0)
-					(length 3.81)
-					(name "Pin_a3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "a3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 12.7 0)
-					(length 3.81)
-					(name "Pin_a4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "a4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 10.16 0)
-					(length 3.81)
-					(name "Pin_a5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "a5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 7.62 0)
-					(length 3.81)
-					(name "Pin_a6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "a6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_a7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "a7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_a8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "a8"
+					(number "AGND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2906,50 +2636,14 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
-					(name "Pin_a9"
+					(name "17"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "a9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 20.32 180)
-					(length 3.81)
-					(name "Pin_b1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "b1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "Pin_b10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "b10"
+					(number "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2960,32 +2654,14 @@
 				(pin passive line
 					(at 7.62 -5.08 180)
 					(length 3.81)
-					(name "Pin_b11"
+					(name "22"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "b11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -7.62 180)
-					(length 3.81)
-					(name "Pin_b12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "b12"
+					(number "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2994,16 +2670,16 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -10.16 180)
+					(at -5.08 -12.7 0)
 					(length 3.81)
-					(name "Pin_b13"
+					(name "27"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "b13"
+					(number "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3012,16 +2688,16 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -12.7 180)
+					(at -5.08 15.24 0)
 					(length 3.81)
-					(name "Pin_b14"
+					(name "5"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "b14"
+					(number "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3030,16 +2706,16 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -15.24 180)
+					(at -5.08 -15.24 0)
 					(length 3.81)
-					(name "Pin_b15"
+					(name "29"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "b15"
+					(number "PA0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3048,34 +2724,16 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -17.78 180)
+					(at -5.08 7.62 0)
 					(length 3.81)
-					(name "Pin_b16"
+					(name "11"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "b16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -20.32 180)
-					(length 3.81)
-					(name "Pin_b17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "b17"
+					(number "PA2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3086,32 +2744,14 @@
 				(pin passive line
 					(at 7.62 17.78 180)
 					(length 3.81)
-					(name "Pin_b2"
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "b2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 15.24 180)
-					(length 3.81)
-					(name "Pin_b3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "b3"
+					(number "PA8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3120,16 +2760,16 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 12.7 180)
+					(at -5.08 -17.78 0)
 					(length 3.81)
-					(name "Pin_b4"
+					(name "31"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "b4"
+					(number "PB0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3138,16 +2778,16 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 10.16 180)
+					(at 7.62 -17.78 180)
 					(length 3.81)
-					(name "Pin_b5"
+					(name "32"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "b5"
+					(number "PB10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3156,16 +2796,34 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 7.62 180)
+					(at 7.62 -20.32 180)
 					(length 3.81)
-					(name "Pin_b6"
+					(name "34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "b6"
+					(number "PB11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PB2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3176,14 +2834,14 @@
 				(pin passive line
 					(at 7.62 5.08 180)
 					(length 3.81)
-					(name "Pin_b7"
+					(name "14"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "b7"
+					(number "PB6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3194,14 +2852,284 @@
 				(pin passive line
 					(at 7.62 2.54 180)
 					(length 3.81)
-					(name "Pin_b8"
+					(name "16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "b8"
+					(number "PB7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 12.7 0)
+					(length 3.81)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 10.16 0)
+					(length 3.81)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PC5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PD11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PD12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PD13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -20.32 0)
+					(length 3.81)
+					(name "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PE0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.62 180)
+					(length 3.81)
+					(name "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PE10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 15.24 180)
+					(length 3.81)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PE11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -10.16 180)
+					(length 3.81)
+					(name "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PE12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 10.16 180)
+					(length 3.81)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PE13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 12.7 180)
+					(length 3.81)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PE14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -15.24 180)
+					(length 3.81)
+					(name "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PE15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PE2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -12.7 180)
+					(length 3.81)
+					(name "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PE6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PE7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3212,14 +3140,86 @@
 				(pin passive line
 					(at 7.62 0 180)
 					(length 3.81)
-					(name "Pin_b9"
+					(name "18"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "b9"
+					(number "PE8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 20.32 180)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PG12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 180)
+					(length 3.81)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PG14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PG6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 20.32 0)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "VDDA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3986,106 +3986,106 @@
 				(hide yes)
 			)
 		)
-		(pin "a15"
+		(pin "PC1"
 			(uuid "ba22c81b-6f4c-486a-8d31-baa3b3d7fe11")
 		)
-		(pin "a16"
+		(pin "PD12"
 			(uuid "70efb398-5fbd-4bf2-b5df-a9730d1e8a9c")
 		)
-		(pin "a2"
+		(pin "PB2"
 			(uuid "3f9da054-01f7-478d-8346-5cc91afe59ef")
 		)
-		(pin "a9"
+		(pin "GND"
 			(uuid "94061a1b-c67f-414b-a69e-2ddc409692eb")
 		)
-		(pin "a6"
+		(pin "PD11"
 			(uuid "1c3d3f38-79c3-4e5f-903c-5d11e7b18d6d")
 		)
-		(pin "a7"
+		(pin "PE2"
 			(uuid "47127e7f-8ff8-4d56-a21f-83e84838f123")
 		)
-		(pin "a17"
+		(pin "VDDA"
 			(uuid "bd6f8d87-0279-45ea-bddc-2f67fb506525")
 		)
-		(pin "a11"
+		(pin "PG6"
 			(uuid "d7c019ad-529c-4fa5-9587-8af132f4d6da")
 		)
-		(pin "a5"
+		(pin "PE13"
 			(uuid "0ce38d2b-c428-4693-b20d-06143620b3b6")
 		)
-		(pin "a12"
+		(pin "PE0"
 			(uuid "57fa43ee-577e-4fb0-b6ca-813d108e3ac8")
 		)
-		(pin "a8"
+		(pin "PD13"
 			(uuid "8dfe9b8b-6ed9-46a3-876d-10e6eafc616f")
 		)
-		(pin "a10"
+		(pin "PB0"
 			(uuid "8e94fcb4-7c65-4416-b2b6-26d51198a7c0")
 		)
-		(pin "a4"
+		(pin "PA0"
 			(uuid "5c452e90-d430-4659-9973-8a8dbf6cbad3")
 		)
-		(pin "a13"
+		(pin "PA2"
 			(uuid "2206c33a-854c-49d9-937e-2ec97cafe584")
 		)
-		(pin "a3"
+		(pin "PC5"
 			(uuid "7506b71c-d5bd-49b6-a1f5-f760d22b356b")
 		)
-		(pin "b10"
+		(pin "PE7"
 			(uuid "d4ab073a-de1e-47b5-85b3-0a0015503d85")
 		)
-		(pin "b11"
+		(pin "PE10"
 			(uuid "9fc44879-de67-4bf8-87ae-d167400de163")
 		)
-		(pin "b12"
+		(pin "GND"
 			(uuid "a56e78c6-5c97-4bb1-acd6-8128749fbadd")
 		)
-		(pin "b13"
+		(pin "PB10"
 			(uuid "24212b3c-07c1-4f66-8e37-740dfa0cc1ce")
 		)
-		(pin "b14"
+		(pin "PE6"
 			(uuid "e842c673-4fda-46f0-9d36-5c753a23f79f")
 		)
-		(pin "b15"
+		(pin "PE15"
 			(uuid "0fa6d117-a774-4636-a8b1-347362d58eb6")
 		)
-		(pin "b16"
+		(pin "PE12"
 			(uuid "619dc52e-7eae-4ac4-ac18-864ad38332e7")
 		)
-		(pin "b17"
+		(pin "PB11"
 			(uuid "b29a6c31-f2f9-42e9-8aac-7939bf3eb7e5")
 		)
-		(pin "b2"
+		(pin "GND"
 			(uuid "5bf5c353-f2a6-4507-9b2b-a5d80cf856a0")
 		)
-		(pin "b3"
+		(pin "PG14"
 			(uuid "a9ffdf9e-cafe-41ed-ab22-56166e9dd193")
 		)
-		(pin "b4"
+		(pin "PE8"
 			(uuid "a19c7c42-3376-4a9a-8041-88343baeca19")
 		)
-		(pin "b5"
+		(pin "PB7"
 			(uuid "a6123341-bd6f-48d5-aabe-3546cb13ea81")
 		)
-		(pin "b6"
+		(pin "PG12"
 			(uuid "ce618707-c29f-40a1-a109-21398313047c")
 		)
-		(pin "b7"
+		(pin "PE14"
 			(uuid "e554b0ea-a02e-4f0d-a13a-82be8a2ffeeb")
 		)
-		(pin "b8"
+		(pin "PA8"
 			(uuid "ac844357-7ee3-48b4-9555-a81fbd25c2ad")
 		)
-		(pin "b9"
+		(pin "PB6"
 			(uuid "3f54c131-c299-482e-ba64-b61f886ce804")
 		)
-		(pin "a1"
+		(pin "GND"
 			(uuid "34c54604-c7ff-41f9-8cc7-18b01f7868c6")
 		)
-		(pin "b1"
+		(pin "PE11"
 			(uuid "1fdd7c7a-2dfa-4c2c-afca-88305a8017be")
 		)
-		(pin "a14"
+		(pin "AGND"
 			(uuid "c0747c07-28c7-432e-adea-f30b6d581dac")
 		)
 		(instances
