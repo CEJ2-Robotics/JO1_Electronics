@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "bp")(type "Legacy")(uri "${KIPRJMOD}/components/symbols/bp.lib")(options "")(descr ""))
+)
