@@ -5041,6 +5041,127 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "RF:NRF24L01_Breakout"
 			(pin_names
 				(offset 1.016)
@@ -6238,12 +6359,72 @@
 		(uuid "d1180fbf-c25d-48eb-8930-b318d5aa37c3")
 	)
 	(no_connect
-		(at 203.2 142.24)
+		(at 196.85 143.51)
 		(uuid "d8405b04-5c4e-4b48-836f-a4cb5cd1c558")
 	)
 	(no_connect
-		(at 203.2 139.7)
+		(at 196.85 140.97)
 		(uuid "d87cb75f-95ac-4db2-876a-124f27a45e7c")
+	)
+	(wire
+		(pts
+			(xy 173.99 138.43) (xy 196.85 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "127d1687-d4c7-4329-bf73-0988500902ed")
+	)
+	(wire
+		(pts
+			(xy 166.37 138.43) (xy 166.37 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68a524fd-8feb-4649-831f-d8d6822f41d5")
+	)
+	(wire
+		(pts
+			(xy 173.99 146.05) (xy 173.99 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a901b83-3d0b-4504-809c-4b9e06a907d1")
+	)
+	(wire
+		(pts
+			(xy 143.51 135.89) (xy 166.37 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b730555-e21f-4aeb-b172-a6a80b0ccd78")
+	)
+	(wire
+		(pts
+			(xy 173.99 135.89) (xy 196.85 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab8c3ab6-ba31-46b7-b87f-1064088ebefb")
+	)
+	(wire
+		(pts
+			(xy 143.51 138.43) (xy 166.37 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da8b8a3e-0068-4724-9f25-07648d379abe")
 	)
 	(global_label "NUCLEO_IMU_I2C4_SCL"
 		(shape input)
@@ -6399,28 +6580,6 @@
 			)
 		)
 	)
-	(global_label "CANL"
-		(shape input)
-		(at 143.51 138.43 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "400cc5e1-35a3-40c4-a440-496261936b1f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.2124 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "NUCLEO_ESC_TIM14_CH1"
 		(shape input)
 		(at 50.8 82.55 0)
@@ -6509,28 +6668,6 @@
 			)
 		)
 	)
-	(global_label "CANH"
-		(shape input)
-		(at 203.2 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "54a2c266-d610-4b28-8042-2bf8d3707c91")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.2048 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "NUCLEO_NRF_SPI5_MOSI"
 		(shape input)
 		(at 160.02 26.67 180)
@@ -6555,29 +6692,29 @@
 	)
 	(global_label "BLUEPILL_CAN_RX"
 		(shape input)
-		(at 203.2 132.08 0)
+		(at 196.85 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "5c611ce6-0a66-4f75-92b9-97baa4508d94")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.9976 132.08 0)
+			(at 177.0524 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "CANL"
+	(global_label "BLUEPILL_CAN_TX"
 		(shape input)
-		(at 203.2 137.16 0)
+		(at 262.89 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6585,9 +6722,9 @@
 			)
 			(justify left)
 		)
-		(uuid "5e9a4a03-a0ea-4b6d-937a-52255bd57430")
+		(uuid "63b9bc5c-3f79-4804-8657-7305bf0c55b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.9024 137.16 0)
+			(at 282.3852 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6681,6 +6818,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BLUEPILL_CAN_RX"
+		(shape input)
+		(at 262.89 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "843800ff-623b-4a09-bd3c-e279f621df34")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 282.6876 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6883,28 +7042,6 @@
 			)
 		)
 	)
-	(global_label "CANH"
-		(shape input)
-		(at 143.51 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ea59ef9a-a809-42dc-afec-1df7f93fee6f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.5148 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "NUCLEO_IMU_I2C4_SDA"
 		(shape input)
 		(at 38.1 74.93 180)
@@ -6929,22 +7066,22 @@
 	)
 	(global_label "BLUEPILL_CAN_TX"
 		(shape input)
-		(at 203.2 129.54 0)
+		(at 196.85 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "f25f240b-d94e-4b1a-a4bc-3fedbf05f0a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.6952 129.54 0)
+			(at 177.3548 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7018,7 +7155,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 127 90)
+		(at 196.85 128.27 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7027,7 +7165,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e6dd3c0-9194-4122-8a78-f673973f3f0b")
 		(property "Reference" "#PWR010"
-			(at 209.55 127 0)
+			(at 190.5 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7036,7 +7174,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.01 126.9999 90)
+			(at 193.04 128.2699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7045,7 +7183,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 127 0)
+			(at 196.85 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7054,7 +7192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 127 0)
+			(at 196.85 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7063,7 +7201,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 127 0)
+			(at 196.85 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7725,7 +7863,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x08_Pin")
-		(at 198.12 132.08 0)
+		(at 201.93 133.35 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7733,7 +7872,7 @@
 		(dnp no)
 		(uuid "5358cf7e-00c4-41e1-849e-540b3b9670e6")
 		(property "Reference" "J11"
-			(at 198.882 119.888 0)
+			(at 199.39 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7741,7 +7880,7 @@
 			)
 		)
 		(property "Value" "CAN_WCMCU-1051_BLUEPILL"
-			(at 198.755 121.92 0)
+			(at 201.295 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7749,7 +7888,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
-			(at 198.12 132.08 0)
+			(at 201.93 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7758,7 +7897,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 132.08 0)
+			(at 201.93 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7767,7 +7906,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 198.12 132.08 0)
+			(at 201.93 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8566,6 +8705,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 170.18 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5e4e6cc-61dd-4429-918e-1a0cd7914a9c")
+		(property "Reference" "R1"
+			(at 170.18 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120"
+			(at 170.18 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 170.18 134.112 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 170.18 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d16574d6-6308-4cbd-b9c1-6da68036c7ea")
+		)
+		(pin "1"
+			(uuid "12777f3a-c2b0-404f-ad6e-3cbb21607009")
+		)
+		(instances
+			(project ""
+				(path "/de01822b-898f-4c66-b161-07e91eded57e"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x06_Socket")
 		(at 143.51 102.87 0)
 		(unit 1)
@@ -8986,6 +9193,74 @@
 			(project ""
 				(path "/de01822b-898f-4c66-b161-07e91eded57e"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 170.18 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9e8a853-6318-4767-870a-c0f90134bfcc")
+		(property "Reference" "R2"
+			(at 170.18 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120"
+			(at 170.18 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 170.18 144.272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 170.18 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "726e772b-5393-4a60-b5a3-90ac455281f8")
+		)
+		(pin "1"
+			(uuid "a6ceb3f6-2810-493c-b0da-5b8cb28f98b4")
+		)
+		(instances
+			(project "JO1_PCB"
+				(path "/de01822b-898f-4c66-b161-07e91eded57e"
+					(reference "R2")
 					(unit 1)
 				)
 			)
