@@ -5162,6 +5162,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "RF:NRF24L01_Breakout"
 			(pin_names
 				(offset 1.016)
@@ -6714,7 +6796,7 @@
 	)
 	(global_label "BLUEPILL_CAN_TX"
 		(shape input)
-		(at 262.89 46.99 0)
+		(at 262.89 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6724,7 +6806,7 @@
 		)
 		(uuid "63b9bc5c-3f79-4804-8657-7305bf0c55b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.3852 46.99 0)
+			(at 282.3852 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6824,7 +6906,7 @@
 	)
 	(global_label "BLUEPILL_CAN_RX"
 		(shape input)
-		(at 262.89 49.53 0)
+		(at 262.89 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6834,7 +6916,7 @@
 		)
 		(uuid "843800ff-623b-4a09-bd3c-e279f621df34")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.6876 49.53 0)
+			(at 282.6876 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7949,7 +8031,7 @@
 	)
 	(symbol
 		(lib_id "bp:BP")
-		(at 243.84 46.99 0)
+		(at 243.84 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7958,7 +8040,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ff099e5-dc33-477a-927c-96788f8c376c")
 		(property "Reference" "U2"
-			(at 249.8441 20.32 0)
+			(at 249.8441 16.51 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7967,7 +8049,7 @@
 			)
 		)
 		(property "Value" "BP"
-			(at 249.8441 22.86 0)
+			(at 249.8441 19.05 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7976,7 +8058,7 @@
 			)
 		)
 		(property "Footprint" "footprints:blue_pill"
-			(at 241.3 27.94 0)
+			(at 241.3 24.13 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7985,7 +8067,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 27.94 0)
+			(at 241.3 24.13 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7994,7 +8076,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 243.84 46.99 0)
+			(at 243.84 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8263,6 +8345,70 @@
 			(project ""
 				(path "/de01822b-898f-4c66-b161-07e91eded57e"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 17.78 171.45 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e8666c6-0522-434c-a7f5-32f13db41031")
+		(property "Reference" "H1"
+			(at 20.32 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 20.32 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 17.78 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 17.78 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 17.78 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/de01822b-898f-4c66-b161-07e91eded57e"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -8705,6 +8851,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 17.78 190.5 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2597a86-22d0-44c2-ae8b-a6fb9fdd1f9a")
+		(property "Reference" "H4"
+			(at 20.32 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 20.32 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 17.78 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 17.78 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 17.78 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/de01822b-898f-4c66-b161-07e91eded57e"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 170.18 135.89 270)
 		(unit 1)
@@ -8970,6 +9180,70 @@
 			(project ""
 				(path "/de01822b-898f-4c66-b161-07e91eded57e"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 17.78 184.15 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9612d5c-fbec-4d79-b018-ae4e806b69d1")
+		(property "Reference" "H3"
+			(at 20.32 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 20.32 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 17.78 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 17.78 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 17.78 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/de01822b-898f-4c66-b161-07e91eded57e"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -9261,6 +9535,70 @@
 			(project "JO1_PCB"
 				(path "/de01822b-898f-4c66-b161-07e91eded57e"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 17.78 177.8 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbb7bf08-a07d-4cc7-be7c-4d0f94cd4b57")
+		(property "Reference" "H2"
+			(at 20.32 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 20.32 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 17.78 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 17.78 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 17.78 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/de01822b-898f-4c66-b161-07e91eded57e"
+					(reference "H2")
 					(unit 1)
 				)
 			)
