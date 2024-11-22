@@ -3456,7 +3456,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.7mm width 2.5mm Capacitor")
 		(property "Reference" "C1"
-			(at 2.5 -2.5 90)
+			(at 2.45 -2.95 90)
 			(layer "F.SilkS")
 			(uuid "b878dcac-526e-402b-978d-e3e59428c829")
 			(effects
@@ -4264,7 +4264,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R3"
-			(at 5.08 -2.37 90)
+			(at 5.18 -3 90)
 			(layer "F.SilkS")
 			(uuid "b593b9dc-8337-41c6-b3e7-a214adeecc9c")
 			(effects
@@ -4539,7 +4539,7 @@
 		(descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x06 2.54mm single row")
 		(property "Reference" "J8"
-			(at -1 -2.33 360)
+			(at -1 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "41caab8a-8f4f-418c-8635-dcd15220bc43")
 			(effects
@@ -4550,7 +4550,7 @@
 			)
 		)
 		(property "Value" "DC_MOTOR"
-			(at 0 15.03 360)
+			(at 0 15.03 0)
 			(layer "F.Fab")
 			(uuid "0813dcd9-660f-4bc5-a166-734ce8ba6547")
 			(effects
@@ -23747,14 +23747,6 @@
 		(layer "F.Cu")
 		(net 79)
 		(uuid "fd660a72-3bd1-4534-9e42-7dad0f4a1c17")
-	)
-	(segment
-		(start 131.61 91.57)
-		(end 131.61 91.92)
-		(width 0.35)
-		(layer "B.Cu")
-		(net 79)
-		(uuid "acdcfd4e-f987-4a79-a997-842f4b491b83")
 	)
 	(segment
 		(start 130.09 90.16)
