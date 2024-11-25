@@ -8022,6 +8022,28 @@
 		)
 		(uuid "dee6a044-4296-4b8d-a0bf-26e39eff4a08")
 	)
+	(global_label "NUCLEO_NRF_SPI4_MOSI"
+		(shape input)
+		(at 50.8 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "002cfb51-cfb5-4adf-a66e-a98ae09b7530")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.7057 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "NUCLEO_IMU_I2C4_SCL"
 		(shape input)
 		(at 143.51 81.28 0)
@@ -8216,28 +8238,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "NUCLEO_NRF_SPI5_SCK"
-		(shape input)
-		(at 50.8 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "30bec664-65c9-4c10-bd43-ad6ca9b8ac02")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.859 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -8902,6 +8902,28 @@
 			)
 		)
 	)
+	(global_label "NUCLEO_NRF_SPI4_MISO"
+		(shape input)
+		(at 50.8 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a06b0219-38bc-4f88-9359-a171f06c93ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.7057 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CAN_-"
 		(shape input)
 		(at 168.91 156.21 270)
@@ -8964,28 +8986,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "NUCLEO_NRF_SPI5_MISO"
-		(shape input)
-		(at 50.8 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "af7963d2-f286-4715-914c-09183dcb4885")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.7057 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -9078,28 +9078,6 @@
 			)
 		)
 	)
-	(global_label "NUCLEO_NRF_SPI5_MOSI"
-		(shape input)
-		(at 38.1 77.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bcae16e9-6cf9-47d8-953f-ff9b1237f27c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 12.1943 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "3.3V"
 		(shape input)
 		(at 234.95 96.52 180)
@@ -9118,6 +9096,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NUCLEO_NRF_SPI4_SCK"
+		(shape input)
+		(at 50.8 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb72de63-87de-4a73-a4e2-569956650345")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.859 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
