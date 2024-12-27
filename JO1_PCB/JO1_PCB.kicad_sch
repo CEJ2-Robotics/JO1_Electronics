@@ -7496,6 +7496,10 @@
 		(uuid "04a91e81-ad34-4f2f-a6f0-0beb6995b56c")
 	)
 	(no_connect
+		(at 87.63 34.29)
+		(uuid "0723f2ae-9ba2-48b6-846e-7672cccc9c68")
+	)
+	(no_connect
 		(at 248.92 63.5)
 		(uuid "08d720ca-ab12-46f3-a533-738891631602")
 	)
@@ -7556,10 +7560,6 @@
 		(uuid "30038981-12c4-41ef-960e-24bd3c3ba7ac")
 	)
 	(no_connect
-		(at 54.61 74.93)
-		(uuid "369e9ebf-deaa-43b1-a86a-9a28f76d1e01")
-	)
-	(no_connect
 		(at 54.61 77.47)
 		(uuid "393e91e2-74e3-4c98-9e83-208f20d7382c")
 	)
@@ -7618,6 +7618,10 @@
 	(no_connect
 		(at 87.63 72.39)
 		(uuid "54a3a5cd-a378-4b76-8e59-2ee2a669657a")
+	)
+	(no_connect
+		(at 54.61 49.53)
+		(uuid "54afcbd5-415e-4929-b956-0302f8df3439")
 	)
 	(no_connect
 		(at 274.32 76.2)
@@ -7774,10 +7778,6 @@
 	(no_connect
 		(at 54.61 54.61)
 		(uuid "afff3d06-0ef1-47bf-a8e3-021656ba1e15")
-	)
-	(no_connect
-		(at 54.61 49.53)
-		(uuid "b31aa6d1-fac4-47f6-903c-defe0a7683bb")
 	)
 	(no_connect
 		(at 54.61 85.09)
@@ -8560,6 +8560,28 @@
 			)
 		)
 	)
+	(global_label "NUCLEO_NRF_CSN"
+		(shape input)
+		(at 54.61 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30127746-f65d-4ea6-a09b-f474cfbfc049")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.4681 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3.3V"
 		(shape input)
 		(at 97.79 161.29 90)
@@ -8736,7 +8758,7 @@
 			)
 		)
 	)
-	(global_label "CAN_+"
+	(global_label "CAN_H"
 		(shape input)
 		(at 198.12 77.47 180)
 		(fields_autoplaced yes)
@@ -8748,7 +8770,7 @@
 		)
 		(uuid "55365ab8-3ca3-4a56-af42-1ad2aba88166")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.9057 77.47 0)
+			(at 189.1476 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8802,7 +8824,7 @@
 			)
 		)
 	)
-	(global_label "CAN_-"
+	(global_label "CAN_L"
 		(shape input)
 		(at 144.78 64.77 0)
 		(fields_autoplaced yes)
@@ -8814,7 +8836,7 @@
 		)
 		(uuid "8e3ca675-b265-4859-bee7-4004f91d5006")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.9943 64.77 0)
+			(at 153.45 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9396,7 +9418,7 @@
 			)
 		)
 	)
-	(global_label "CAN_+"
+	(global_label "CAN_H"
 		(shape input)
 		(at 144.78 62.23 0)
 		(fields_autoplaced yes)
@@ -9408,7 +9430,7 @@
 		)
 		(uuid "e6a426a5-7157-4029-a9e7-f264a0e1fd77")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.9943 62.23 0)
+			(at 153.7524 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9440,28 +9462,6 @@
 			)
 		)
 	)
-	(global_label "NUCLEO_NRF_CSN"
-		(shape input)
-		(at 87.63 34.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e992a67b-7836-44b0-a728-425ba2586278")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.7719 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "5V"
 		(shape input)
 		(at 46.99 118.11 180)
@@ -9484,7 +9484,7 @@
 			)
 		)
 	)
-	(global_label "CAN_-"
+	(global_label "CAN_L"
 		(shape input)
 		(at 198.12 80.01 180)
 		(fields_autoplaced yes)
@@ -9496,7 +9496,7 @@
 		)
 		(uuid "f206e63b-9659-4264-8c87-bd7d10ddf624")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.9057 80.01 0)
+			(at 189.45 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
