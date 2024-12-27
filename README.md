@@ -1,4 +1,4 @@
-# JO1_Electronics - John Deere Tractor Navigation System
+# John Deere Tractor Navigation System - Electronics
 
 This repository contains the electronics design and PCB layout for the autonomous tractor navigation system developed in collaboration with John Deere. The system is designed to support both internal and external navigation modes for precision agriculture applications.
 
