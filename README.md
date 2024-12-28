@@ -6,6 +6,10 @@
   <img src="https://github.com/user-attachments/assets/9b74195b-1172-42a1-ba46-7cc85f1335c5" alt = "Schematic Diagram"/>
 </p>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ecc55a47-222c-4c29-b13a-f9b5565e4d87" alt = "PCB Layout"/>
+</p>
+
 ## System Overview
 
 <p align="justify">The custom PCB serves as a connection hub for the system's components, handling:</p>
