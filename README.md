@@ -1,6 +1,6 @@
 # John Deere Tractor Navigation System - Electronics
 
-<p align="justify"> This repository contains the PCB layout for a <strong>shield-style board</strong> designed to interface with the NUCLEO-H745ZI-Q development board. The PCB integrates various components and connection interfaces required for the tractor navigation system developed in collaboration with John Deere, serving as a practical application of embedded systems concepts. The implementation details of this electronics design can be found in the <a href="https://github.com/CEJ2-Robotics/JO1_Embedded">embedded software repository</a>.</p>
+<p align="justify"> This repository contains the PCB layout for a <strong>shield-style board</strong> designed to interface with the <i>NUCLEO-H745ZI-Q</i> development board. The PCB integrates various components and connection interfaces required for the tractor navigation system developed in collaboration with John Deere, serving as a practical application of embedded systems concepts. The implementation details of this electronics design can be found in the <a href="https://github.com/CEJ2-Robotics/JO1_Embedded">embedded software repository</a>.</p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/fa1909df-9410-46f6-8de1-9ff4470a6eae" alt = "PCB 3D View"/>
@@ -31,7 +31,7 @@
 <ul>
   <li><strong>5V terminal:</strong> Connected to external LM2596 regulator outputting 5V</li>
   <li><strong>3.3V terminal:</strong> Connected to external LM2596 regulator outputting 3.3V</li>
-  <li>Both regulators were powered by 7.4V from two 3.7V Li-Po cells in series</li>
+  <li>Both regulators were powered by 7.4V from two <strong>3.7V Li-Po cells</strong> in series</li>
 </ul>
 
 ### STM32 Power Screw Terminal
