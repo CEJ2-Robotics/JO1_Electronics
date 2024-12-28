@@ -1,6 +1,10 @@
 # John Deere Tractor Navigation System - Electronics
 
-<p align="justify"> This repository contains the PCB layout for a <strong>shield-style board</strong> designed to interface with the NUCLEO-H745ZI-Q development board. The PCB integrates various components and connection interfaces required for the tractor navigation system developed in collaboration with John Deere, serving as a practical application of embedded systems concepts. The implementation details of this electronics design can be found in the embedded software repository.</p>
+<p align="justify"> This repository contains the PCB layout for a <strong>shield-style board</strong> designed to interface with the NUCLEO-H745ZI-Q development board. The PCB integrates various components and connection interfaces required for the tractor navigation system developed in collaboration with John Deere, serving as a practical application of embedded systems concepts. The implementation details of this electronics design can be found in the <a href="https://github.com/CEJ2-Robotics/JO1_Embedded">embedded software repository</a>.</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9b74195b-1172-42a1-ba46-7cc85f1335c5" alt = "Schematic Diagram"/>
+</p>
 
 ## System Overview
 
@@ -43,6 +47,10 @@
     </ul>
   </li>
 </ul>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/eee845c2-f5a9-4772-b095-a060867d3e74" alt = "STM32 Power Supply Input from VIN"/>
+</p>
 
 ### ESC and STM32 Connection
 
