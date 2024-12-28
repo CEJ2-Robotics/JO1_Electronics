@@ -1,6 +1,6 @@
 # John Deere Tractor Navigation System - Electronics
 
-<p align="justify"> This repository contains the PCB layout for a <strong>shield-style board</strong>strong> designed to interface with the NUCLEO-H745ZI-Q development board. The PCB integrates various components and connection interfaces required for the tractor navigation system developed in collaboration with John Deere, serving as a practical application of embedded systems concepts. The implementation details of this electronics design can be found in the embedded software repository.</p>
+<p align="justify"> This repository contains the PCB layout for a <strong>shield-style board</strong> designed to interface with the NUCLEO-H745ZI-Q development board. The PCB integrates various components and connection interfaces required for the tractor navigation system developed in collaboration with John Deere, serving as a practical application of embedded systems concepts. The implementation details of this electronics design can be found in the embedded software repository.</p>
 
 ## System Overview
 
