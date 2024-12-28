@@ -7,7 +7,7 @@
 <p align="justify">The custom PCB serves as a connection hub for the system's components, handling:</p>
 
 <ul>
-  <li><strong>Power distribution to components</strong></li>
+  <li><strong>Power distribution</strong> to components</li>
   <li><strong>CAN interface (FDCAN1)</strong> for encoder data</li>
   <li><strong>I2C connection (I2C4)</strong> for the MPU6050 IMU</li>
   <li><strong>SPI interface (SPI5)</strong> for the nRF24L01 wireless module</li>
