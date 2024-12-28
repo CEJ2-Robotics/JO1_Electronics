@@ -3,15 +3,11 @@
 <p align="justify"> This repository contains the PCB layout for a <strong>shield-style board</strong> designed to interface with the NUCLEO-H745ZI-Q development board. The PCB integrates various components and connection interfaces required for the tractor navigation system developed in collaboration with John Deere, serving as a practical application of embedded systems concepts. The implementation details of this electronics design can be found in the <a href="https://github.com/CEJ2-Robotics/JO1_Embedded">embedded software repository</a>.</p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9b74195b-1172-42a1-ba46-7cc85f1335c5" alt = "Schematic Diagram"/>
-</p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/ecc55a47-222c-4c29-b13a-f9b5565e4d87" alt = "PCB Layout"/>
-</p>
-
-<p align="center">
   <img src="https://github.com/user-attachments/assets/fa1909df-9410-46f6-8de1-9ff4470a6eae" alt = "PCB 3D View"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bf322249-d056-4eb7-ab28-47743bcf98b1" alt = "PCB Layout"/>
 </p>
 
 ## System Overview
@@ -72,7 +68,11 @@
   </li>
 </ul>
 
-## Component List
+## Schematic Diagram & Component List
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9b74195b-1172-42a1-ba46-7cc85f1335c5" alt = "Schematic Diagram"/>
+</p>
 
 | Component          | Specifications              | Purpose                   | Location               |
 |------------------- |---------------------------- |-------------------------- |----------------------- |
