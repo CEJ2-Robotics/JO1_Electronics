@@ -16,6 +16,7 @@ _autosave-*
 fp-info-cache
 ~*.lck
 \#auto_saved_files#
+*.json
 
 # Netlist files
 
@@ -30,3 +31,7 @@ fp-info-cache
 
 *.xml
 *.csv
+
+# Production files
+
+production/
