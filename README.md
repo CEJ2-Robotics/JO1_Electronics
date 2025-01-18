@@ -71,7 +71,7 @@
 ## Schematic Diagram & Component List
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9b74195b-1172-42a1-ba46-7cc85f1335c5" alt = "Schematic Diagram"/>
+  <img src="https://github.com/user-attachments/assets/131b9736-2983-4e35-b7d6-0af9e0d5efff" alt = "Schematic Diagram"/>
 </p>
 
 | Component          | Specifications              | Purpose                   | Location               |
